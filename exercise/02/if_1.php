@@ -5,15 +5,10 @@ $b = 3;
 
 // ここに処理を記述
 
-if ($a > $b)
-{
+if ($a > $b) {
     echo $a;
-}
-elseif ($a == $b)
-{
+} elseif ($a == $b) {
     echo '入力された値は等しいです';
-}
-else
-{
+} else {
     echo $b;
 }

@@ -31,9 +31,9 @@ class Car
 
     public function information()
     {
-        return '車の種類: ' . $this->carName . 
-                '、 車体番号: ' . $this->carNumber . 
-                '、 カラー: ' . $this->carColor;
+        return '車の種類: ' . $this->carName .
+            '、 車体番号: ' . $this->carNumber .
+            '、 カラー: ' . $this->carColor;
     }
 
     public function setName($name)

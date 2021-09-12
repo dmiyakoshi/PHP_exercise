@@ -11,24 +11,15 @@
 
             $operation = $_GET['operator'];
 
-            if ($operation == 'addition')
-            {
+            if ($operation == 'addition'){
                 echo $num1 . ' + '. $num2 . ' = ' .  $num1 + $num2;
-            }
-            elseif ($operation == 'subtraction')
-            {
+            }elseif ($operation == 'subtraction') {
                 echo $num1 . ' - '. $num2 . ' = ' .  $num1 - $num2;
-            }
-            elseif ($operation == 'multiplication')
-            {
+            } elseif ($operation == 'multiplication') {
                 echo $num1 . ' * '. $num2 . ' = ' .  $num1 * $num2;
-            }
-            elseif ($operation == 'division')
-            {
+            } elseif ($operation == 'division') {
                 echo $num1 . ' / '. $num2 . ' = ' .  $num1 / $num2;
-            }
-            else
-            {
+            } else {
                 echo '正しい演算子を指定して下さい';
             }
         ?>
