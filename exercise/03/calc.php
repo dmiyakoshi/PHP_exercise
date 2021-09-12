@@ -13,19 +13,19 @@
 
             if ($operation == 'addition')
             {
-                echo $num1 + $num2;
+                echo $num1 . ' + '. $num2 . ' = ' .  $num1 + $num2;
             }
             elseif ($operation == 'subtraction')
             {
-                echo $num1 - $num2;
+                echo $num1 . ' - '. $num2 . ' = ' .  $num1 - $num2;
             }
             elseif ($operation == 'multiplication')
             {
-                echo $num1 * $num2;
+                echo $num1 . ' * '. $num2 . ' = ' .  $num1 * $num2;
             }
             elseif ($operation == 'division')
             {
-                echo $num1 /$num2;
+                echo $num1 . ' / '. $num2 . ' = ' .  $num1 / $num2;
             }
             else
             {
